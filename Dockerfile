@@ -1,6 +1,9 @@
-FROM node
-WORKDIR /app
-ADD . /app
-RUN npm install
+FROM node:alpine
+
 EXPOSE 3000
-CMD npm start
+
+WORKDIR /app
+
+COPY . /app
+
+CMD ["node", "app.js"]
