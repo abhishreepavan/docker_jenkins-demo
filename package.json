@@ -1,18 +1,21 @@
 {
-  "name": "playground",
+  "name": "weeklydemo",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "jasmine-node spec"
+  "description": "To show how nodejsapp Works",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
   },
-  "author": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },,
+  "author": "Sandip Das",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
-    "request": "^2.85.0"
-  },
-  "devDependencies": {
-    "jasmine-node": "^1.14.5"
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "request": "^2.88.2",
+    "sequelize": "^6.5.0"
   }
 }
